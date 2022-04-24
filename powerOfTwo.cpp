@@ -25,7 +25,7 @@ int main() {
      userNum = std::stoi(userNumString);
 
     if (userNum >= 0) {
-        // calculate the square of loopCounter, starting from 0 until that
+        // calculate the square of each number, starting from 0 until that
         // number
         for (loopCounter = 0; loopCounter <= userNum; loopCounter++) {
             powerOfTwo = pow(loopCounter, 2);
