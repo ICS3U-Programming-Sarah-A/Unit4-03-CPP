@@ -2,7 +2,7 @@
 //
 // Created by: Sarah
 // Date: Apr, 21, 2022
-// This program asks the user for a whole number. It then calculate the power
+// This program asks the user for a whole number. It then calculate the square
 // of two of each number from 0 until that number, using for loops.
 #include <iostream>
 #include <cmath>
@@ -25,7 +25,7 @@ int main() {
      userNum = std::stoi(userNumString);
 
     if (userNum >= 0) {
-        // calculate the power of two of user number entered from 0 until their
+        // calculate the square of loopCounter, starting from 0 until that
         // number
         for (loopCounter = 0; loopCounter <= userNum; loopCounter++) {
             powerOfTwo = pow(loopCounter, 2);
